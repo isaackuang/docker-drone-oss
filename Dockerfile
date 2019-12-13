@@ -1,6 +1,6 @@
 FROM golang:1.12.9-alpine3.10 AS build
 
-ENV DRONE_VER=1.6.2
+ENV DRONE_VER=1.6.3
 
 RUN apk update \
     && \
